@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Dela Gothic One' rel='stylesheet'>
 </head>
 <body>
-  <h1>WelcomeTo My Page </h1>
+  <h1>Hi My Name Is David </h1>
+  <h2> Welcome To My JavaScript 30 Projects Page</h2>
+ <div class="btn"> <button data-key="1" class="button">DrumKit</button>
+  <!-- <button data-key="2">gvhbvub</button> -->
+ </div>
+<script>
+  const drumButton = document.querySelector(`button[data-key="${1}"]`);
+  // const secondButton = document.querySelector(`button[data-key="${2}"]`);
+function handleClick(event, path) {
+  window.location.pathname = path
 
+}
+drumButton.addEventListener('click', (event) => handleClick(event, "/01%20-%20JavaScript%20Drum%20Kit/index-START.html"))
+// secondButton.addEventListener('click', (event) => handleClick(event, "/01%20-%20JavaScript%20Drum%20Kit/index-START.html"))
+
+</script>
 </body>
+</html>

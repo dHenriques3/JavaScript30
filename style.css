@@ -1,0 +1,35 @@
+
+html{
+  background: url('./indexbackground.jpg');
+  background-size: cover;
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Dela Gothic One';
+}
+
+.button {
+  border: .3rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color:#EF9791;
+  text-shadow: 0 0 .1rem black;
+}
+
+.button:hover {
+  text-shadow: 0 0 .1rem #EF9791;
+  cursor: pointer;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
