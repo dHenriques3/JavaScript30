@@ -17,7 +17,7 @@ function handleClick(event, path) {
   const currentUrl = window.location.href
   const env = currentUrl === "http://127.0.0.1:5500/index.html" ? "dev" : "prod"
 
-  const prefix = env === "dev" ? "" : "https://dhenriques3.github.io/JavaScript30"
+  const prefix = env === "dev" ? "" : "/JavaScript30"
   window.location.pathname = `${prefix}${path}`
 }
 drumButton.addEventListener('click', (event) => handleClick(event, "/01%20-%20JavaScript%20Drum%20Kit/index-START.html"))
